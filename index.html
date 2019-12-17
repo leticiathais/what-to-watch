@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>What to watch Quiz </title>
+</head>
+<body>
+    <header> 
+        <h1> What to watch? </h1>
+        <h2> Sometimes movies are a hard thing to choose. <br> So, take this fun quiz while get your popcorn ready and 
+        find out your perfect movie match! </h2>
+        <button class="actionButton" id="takeQuizBtn">Take the Quiz</button>
+    </header>
+    
+    <section class ="quizSection" style="display:none";> 
+        <form action="#" class="quizBox" id="quizBoxForm">
+            <div class="question" id="question1">
+                <h3> 1) Your're on vacations, where's your destination? </h3>
+                <div class="answers" id="answers1">
+                    <input type="radio" name="question1" value="dramaGenre"> Maldives Island <br></label>
+                    <input type="radio" name="question1" value="actionGenre"> Las Vegas <br> </label>
+                    <input type="radio" name="question1" value="fictionGenre"> New Zeland <br></label>
+                    <input type="radio" name="question1" value="commedyGenre"> New York <br></label>
+                </div>
+            </div>
+
+            <div class="question" id="question2">
+                <h3> 2) In the last couple days, what kind of music you heard most? </h3>
+                <div class="answers" id="answers2">
+                    <input type="radio" name="question2" value="dramaGenre"> Pop <br></label>
+                    <input type="radio" name="question2" value="actionGenre"> Rock <br> </label>
+                    <input type="radio" name="question2" value="fictionGenre"> Metal <br></label>
+                    <input type="radio" name="question2" value="commedyGenre"> Techno/Eletro <br></label>
+                </div>
+            </div>
+
+            <div class="question" id="question3">
+                <h3> 3) If you had a dog, which would be? </h3>
+                <div class="answers" id="answers2">
+                    <input type="radio" name="question3" value="dramaGenre"> Golden Retriever <br></label>
+                    <input type="radio" name="question3" value="actionGenre"> German Shepherd <br> </label>
+                    <input type="radio" name="question3" value="fictionGenre"> Dobermann <br></label>
+                    <input type="radio" name="question3" value="commedyGenre"> Siberian Husky <br></label>
+                </div>
+            </div>
+
+            <div class="question" id="question4">
+                <h3> 4) A perfect drink to watch this movie would be: </h3>
+                <div class="answers" id="answers2">
+                    <input type="radio" name="question4" value="dramaGenre"> Wine <br></label>
+                    <input type="radio" name="question4" value="actionGenre"> Whisky <br> </label>
+                    <input type="radio" name="question4" value="fictionGenre"> Beer <br></label>
+                    <input type="radio" name="question4" value="commedyGenre"> Cooler <br></label>
+                </div>
+            </div>
+
+            <div class="question" id="question5">
+                    <h3> 5) It's friday night! Pick the best option: </h3>
+                    <div class="answers" id="answers2">
+                        <input type="radio" name="question5" value="dramaGenre"> Invite a friend for a dinner <br></label>
+                        <input type="radio" name="question5" value="actionGenre"> Enjoy a party <br> </label>
+                        <input type="radio" name="question5" value="fictionGenre"> Play videogame <br></label>
+                        <input type="radio" name="question5" value="commedyGenre"> Karaoke Bar <br></label>
+                    </div>
+                </div>
+
+            <button type="submit" id="checkResults" class="btn-submit" style="display:none;"> Check my results </button>
+       </form>
+
+    </section>
+
+    <section class="finalResults" style="display: none;">
+        <h4>Congratulations! <br> You have a perfect movie match 🎉 </h4>
+        <div class="movieResult" id="dramaG" style="display: none;">
+            <div class="movie">
+                <a href="https://www.imdb.com/title/tt0120338/">
+                    <img src="titanic-drama.jpg" alt="Titanic movie cover">
+                </a>
+                <p>
+                    🎥 Title: Titanic <br> 🏷 Synopsis: A seventeen-year-old aristocrat falls in love
+                    with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic. <br> ⭐️ ImDb: 7.8
+                </p>
+            </div>
+        </div>
+        <div class="movieResult" id="actionG" style="display: none;">
+            <div class="movie">
+                <a href="https://www.imdb.com/title/tt0117060/">
+                    <img src="missionimpossible-action.jpg" alt="Mission: Impossible movie cover">
+                </a>
+                <p> 
+                    🎥 Title: Mission: Impossible <br> 🏷 Synopsis: An American agent, under false
+                    suspicion of disloyalty, must discover and expose the real spy without the help of his organization.
+                    <br> ⭐️ ImDb: 7.1
+                </p>
+            </div>
+        </div>
+        <div class="movieResult" id="fictionG" style="display: none;">
+            <div class="movie">
+                <a href="https://www.imdb.com/title/tt0133093/">
+                    <img src="matrix-ficction.jpg" alt="The Matrix movie cover">
+                </a>
+                <p>
+                    🎥 Title: The Matrix <br> 🏷 Synopsis: A computer hacker learns from mysterious
+                    rebels about the true nature of his reality and his role in the war against its controllers. <br> ⭐️ ImDb: 8.7
+                </p>
+            </div>
+        </div>
+        <div class="movieResult" id="commedyG" style="display: none;">
+            <div class="movie">
+                <a href="https://www.imdb.com/title/tt1119646/?ref_=ttls_li_i">
+                    <img src="thehangover-commedy.jpg" alt="The Hangover movie cover">
+                </a>
+                <p>
+                    🎥 Title: The Hangover <br> 🏷 Synopsis: Three buddies wake up from a bachelor party in Las Vegas, with
+                    no memory of the previous night and the bachelor missing. They make their way around the city in order
+                    to find their friend before his wedding. <br> ⭐️ ImDb: 7.7
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <button onClick="window.location.reload();" class="btn-submit" id="retake-quiz" style="display: none;"> Do it Again </button>
+        <p>  © Letícia Thaís </p>
+
+    </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="script.js"></script>
+
+    
+</body>
+</html>
