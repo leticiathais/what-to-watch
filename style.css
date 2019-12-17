@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: rgb(61, 61, 61);
+  margin: 0;
+  padding-top: 10vh;
+  
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 30vh;
+  line-height: 45px;
+}
+
+h3 {margin-top: 10px;}
+
+h4 {
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 20px;
+
+}
+
+p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+/* Header Styles */
+header {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.actionButton {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* Quiz Styles */
+
+section {
+  height: auto;
+  width: auto;
+}
+
+.quizSection {
+  padding: 1vh;
+  background-image: url(movie-cinema-icons-seamless-pattern-with-doodle-style-white-background_7130-940.jpg);
+}
+
+.quizBox {
+  background-color: rgba(255, 255, 255, 0.904);
+  padding:10vh;
+  margin: 10vh;
+
+}
+
+.question {
+  margin: auto;
+  background-color:whitesmoke;
+  margin-bottom: 20px;
+  border: 5px groove;
+  border-radius: 5px;
+  width: 700px;
+  display: none; 
+}
+
+.answers {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-submit {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Results Styles */
+
+.finalResults {
+  margin: auto;
+  width: 720px;
+  overflow:auto;
+  display: block;
+}
+
+.movie img{
+  float:left;
+  margin-right:20px;
+  vertical-align:middle;
+ 
+}
+.movie p{
+  height: 259px;
+  text-align: left;            
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: unset;
+}
+
